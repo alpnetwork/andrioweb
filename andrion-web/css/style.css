@@ -2434,9 +2434,11 @@ p {
     .form-group input,
     .form-group textarea,
     .form-group select {
-        font-size: 16px; /* Previene zoom automático en iOS */
-    
-        /* ========== LOGO IMAGEN ========== */
+       font-size: 16px; /* Previene zoom automático en iOS */
+    }
+}
+
+/* ========== LOGO IMAGEN ========== */
 .nav-logo-img {
     height: 75px;
     width: auto;
@@ -2453,6 +2455,4 @@ p {
 
 .logo-mark {
     display: none;
-}
-    }
 }
